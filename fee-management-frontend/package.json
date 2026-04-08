@@ -1,11 +1,19 @@
 {
   "name": "fee-management-frontend",
   "private": true,
+  "version": "1.0.0",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -16,6 +24,15 @@
     "react-router-dom": "^7.14.0"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.2",
+    "@vitejs/plugin-react": "^6.0.1",
+    "autoprefixer": "^10.4.27",
+    "date-fns": "^4.1.0",
+    "lucide-react": "^1.7.0",
+    "postcss": "^8.5.9",
+    "recharts": "^3.8.1",
+    "tailwindcss": "^4.2.2",
+    "vite": "^8.0.7"
     "@eslint/js": "^9.39.4",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
